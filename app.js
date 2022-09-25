@@ -1,7 +1,7 @@
 import { serve } from "https://deno.land/std@0.140.0/http/server.ts";
 
 const handleRequest = (request) => {
-  return new Response("This is a practise app with Git commit, version 2.0");
+  return new Response("This is a practise app with Git commit, version 2.0, removed runtime");
 };
 
 let port = 7777;
